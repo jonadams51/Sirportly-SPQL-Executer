@@ -4,6 +4,7 @@
  *
  * Configurable Options
  */
+define('SIRPORTLY_URL', 'https://company.sirportly.com');
 
 /**
  * Non-configurable Options and Constants - Please don't touch unless you know what you're doing

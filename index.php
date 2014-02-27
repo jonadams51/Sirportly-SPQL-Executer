@@ -64,7 +64,7 @@ if(!empty($_SESSION['token']) && !empty($_SESSION['secret'])){
     }
 
     $minitemplates = array(
-        'tickets.reference' => '<a href="https://folk.sirportly.com/staff/tickets/{val}" target="_blank">{val}</a>',
+        'tickets.reference' => '<a href="'.SIRPORTLY_URL.'/staff/tickets/{val}" target="_blank">{val}</a>',
     );
 } else {
     $msgs[] = "Missing token or secret";

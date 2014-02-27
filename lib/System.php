@@ -1,7 +1,7 @@
 <?php
 final Class System {
 
-    private $_expected_constants = array('DS', 'ROOT_DIR', 'API_TIMEOUT');
+    private $_expected_constants = array('DS', 'ROOT_DIR', 'API_TIMEOUT', 'SIRPORTLY_URL');
 
     final public function addToExpectedConsts($data){
         if(!empty($data)){
