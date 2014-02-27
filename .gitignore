@@ -1,0 +1,11 @@
+# System files
+.DS_Store
+
+# IDE
+.idea
+.nbproject
+.swp
+
+# App Specific
+config.php
+logs/*
